@@ -1,0 +1,17 @@
+<div id="modal" class="hide"> <!--classe criada para no css referenciar e esconder e no javascript poder acessá-la quando clicarmos no botão de pesquisar pontos de coleta-->
+    <div class="content">
+        <div class="header">
+            <h1>Pontos de Coleta</h1>
+            <a href="#">Fechar</a> <!--# usado em href para não recarregar a página ao clicar no botão de pesquisar para abrir a nova janela-->
+        </div>
+        <form action="/search">
+            <label for="search">Cidade</label>
+            <div class="search field">
+                <input type="text" name=search placeholder="Pesquise por cidade">
+                <button>
+                    <img src="/assets/search.svg" alt="Buscar">
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
