@@ -1,0 +1,30 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Ajusta a caixa para a camada border, para verificar as camadas, basta inspecionar uma pagina.
+    Com esse truque, é possível manter o tamanho do elemento border sempre, ao invés da largura setada*/
+}
+
+html {
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased; /* teoricamente é pra deixar a fonte "mais gostosa" de se ler*/
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
